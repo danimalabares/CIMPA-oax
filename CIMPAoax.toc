@@ -1,0 +1,67 @@
+\contentsline {section}{Mathematica notebook and other resources}{3}{section*.2}%
+\contentsline {section}{\numberline {1}Tropical Geometry}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Tropical Algebra}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}One variable polynomials}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Two variables}{7}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Tropicalization}{8}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Enumerative Geometry}{9}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Matroids}{9}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Three examples (extra)}{11}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}Benoit's talk on Real tropical geometry}{13}{subsection.1.8}%
+\contentsline {subsection}{\numberline {1.9}An exercise on tropical geometry}{14}{subsection.1.9}%
+\contentsline {subsection}{\numberline {1.10}Open problems}{17}{subsection.1.10}%
+\contentsline {section}{\numberline {2}Computational commutative algebra}{19}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Univariate polynomials and resultants}{19}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Univariate polynomials}{19}{subsubsection.2.1.1}%
+\contentsline {paragraph}{Question}{19}{section*.19}%
+\contentsline {paragraph}{HW}{20}{section*.20}%
+\contentsline {paragraph}{Conclusion}{20}{section*.21}%
+\contentsline {paragraph}{HW}{20}{section*.22}%
+\contentsline {subsubsection}{\numberline {2.1.2}Solving bivariate polynomial systems}{20}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}Ideals and varieties}{21}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Operations on ideals}{23}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Hilbert's Nullstellensatz}{23}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}From geometry to algebra}{23}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}Radical membership}{24}{subsubsection.2.2.4}%
+\contentsline {paragraph}{Question}{24}{section*.25}%
+\contentsline {paragraph}{Hint}{24}{section*.26}%
+\contentsline {subsection}{\numberline {2.3}Gröbner bases}{25}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Principal ideals}{25}{subsubsection.2.3.1}%
+\contentsline {paragraph}{Remark}{25}{section*.27}%
+\contentsline {paragraph}{Remark}{25}{section*.28}%
+\contentsline {subsubsection}{\numberline {2.3.2}Monomial orderings}{25}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Polynomial division}{26}{subsubsection.2.3.3}%
+\contentsline {paragraph}{HW}{26}{section*.29}%
+\contentsline {paragraph}{HW}{26}{section*.30}%
+\contentsline {subsubsection}{\numberline {2.3.4}Gröbner Bases}{27}{subsubsection.2.3.4}%
+\contentsline {subsubsection}{\numberline {2.3.5}Applications of Gröbner Bases}{28}{subsubsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.4}Elimination theory}{28}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Saturation of ideals}{29}{subsubsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.5}Exercises}{29}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Differential Algebra}{31}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Differential polynomial rings and related notions}{31}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Rankings}{31}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Decomposition of Perfect Differential Ideals}{32}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Triangular sets and regular chains}{33}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Zero testing}{33}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Root separation bound}{34}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Counting solutions of differential equations}{35}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Respresentation of differential equations}{36}{subsection.3.8}%
+\contentsline {paragraph}{Algebraic case}{36}{section*.32}%
+\contentsline {paragraph}{Differential case}{36}{section*.33}%
+\contentsline {subsection}{\numberline {3.9}Finding solutions}{37}{subsection.3.9}%
+\contentsline {subsubsection}{\numberline {3.9.1}Rational solutions}{37}{subsubsection.3.9.1}%
+\contentsline {subsubsection}{\numberline {3.9.2}Algebraic solutions}{38}{subsubsection.3.9.2}%
+\contentsline {subsubsection}{\numberline {3.9.3}Local solutions}{38}{subsubsection.3.9.3}%
+\contentsline {subsection}{\numberline {3.10}(Extra) Another view of Tropical Geometry}{39}{subsection.3.10}%
+\contentsline {subsection}{\numberline {3.11}Problems on algebraic differential equations}{40}{subsection.3.11}%
+\contentsline {subsection}{\numberline {3.12}Exercises}{40}{subsection.3.12}%
+\contentsline {section}{\numberline {4}Tropical Differential Algebra}{42}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Tropical Differential Algebraic Geometry}{43}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Twisted evaluation actions}{44}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Combinatorics}{44}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}An application of the lema}{45}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Exercises}{46}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Newton's Method}{47}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Excercises}{50}{subsection.5.1}%
+\contentsline {section}{\numberline {6}References}{53}{section.6}%

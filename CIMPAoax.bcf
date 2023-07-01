@@ -96,15 +96,15 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>5</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>2</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>5</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -172,7 +172,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortingtemplatename</bcf:key>
-      <bcf:value>nty</bcf:value>
+      <bcf:value>none</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortsets</bcf:key>
@@ -204,7 +204,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>useprefix</bcf:key>
-      <bcf:value>0</bcf:value>
+      <bcf:value>1</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>useafterword</bcf:key>
@@ -331,15 +331,15 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>5</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>2</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>5</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -419,7 +419,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>useprefix</bcf:key>
-      <bcf:value>0</bcf:value>
+      <bcf:value>1</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>useafterword</bcf:key>
@@ -642,6 +642,9 @@
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
     <bcf:option datatype="boolean">subentry</bcf:option>
+    <bcf:option datatype="boolean">articletitle</bcf:option>
+    <bcf:option datatype="boolean">intitle</bcf:option>
+    <bcf:option datatype="boolean">subentrycomp</bcf:option>
     <bcf:option datatype="boolean">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="integer">mincrossrefs</bcf:option>
     <bcf:option datatype="integer">minxrefs</bcf:option>
@@ -724,6 +727,7 @@
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
     <bcf:option datatype="boolean">subentry</bcf:option>
+    <bcf:option datatype="boolean">subentrycomp</bcf:option>
     <bcf:option datatype="boolean">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="xml">labelalphatemplate</bcf:option>
     <bcf:option datatype="xml">translit</bcf:option>
@@ -812,6 +816,7 @@
     <bcf:option datatype="boolean" backendout="1">eprint</bcf:option>
     <bcf:option datatype="boolean" backendout="1">related</bcf:option>
     <bcf:option datatype="boolean" backendout="1">subentry</bcf:option>
+    <bcf:option datatype="boolean" backendout="1">subentrycomp</bcf:option>
     <bcf:option datatype="boolean" backendout="1">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="integer" backendin="maxcitenames,maxbibnames,maxsortnames">maxnames</bcf:option>
     <bcf:option datatype="integer" backendin="mincitenames,minbibnames,minsortnames">minnames</bcf:option>
@@ -2361,42 +2366,39 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">bib.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">diez</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">brugallé2014bit</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">diez</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">curto2</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">curto1</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">mikhalkin2006tropical</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">falkensteiner2020fundamental</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">Francois</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">Sebastian</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">kolchin1973differential</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">ritt1950differential</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">Francois</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">Sebastian</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">falkensteiner2020fundamental</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">casas2019algebraic</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">arocailardi</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">grigoriev2015tropical</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">AROCA2001717</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">Aroca3</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
-  <bcf:sortingtemplate name="nty">
+  <bcf:sortingtemplate name="none">
     <bcf:sort order="1">
-      <bcf:sortitem order="1">presort</bcf:sortitem>
+      <bcf:sortitem order="1">citeorder</bcf:sortitem>
     </bcf:sort>
-    <bcf:sort order="2" final="1">
-      <bcf:sortitem order="1">sortkey</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="3">
-      <bcf:sortitem order="1">sortname</bcf:sortitem>
-      <bcf:sortitem order="2">author</bcf:sortitem>
-      <bcf:sortitem order="3">editor</bcf:sortitem>
-      <bcf:sortitem order="4">translator</bcf:sortitem>
-      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="6">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="4">
-      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="2">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="5">
-      <bcf:sortitem order="1">sortyear</bcf:sortitem>
-      <bcf:sortitem order="2">year</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="6">
-      <bcf:sortitem order="1">volume</bcf:sortitem>
-      <bcf:sortitem literal="1" order="2">0</bcf:sortitem>
+    <bcf:sort order="2">
+      <bcf:sortitem order="1">intciteorder</bcf:sortitem>
     </bcf:sort>
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
   <bcf:datalist section="0"
-                name="nty/global//global/global"
+                name="none/global//global/global"
                 type="entry"
-                sortingtemplatename="nty"
+                sortingtemplatename="none"
                 sortingnamekeytemplatename="global"
                 labelprefix=""
                 uniquenametemplatename="global"
